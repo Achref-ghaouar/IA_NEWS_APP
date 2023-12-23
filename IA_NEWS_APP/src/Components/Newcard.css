@@ -1,0 +1,55 @@
+
+  
+  .Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .Home img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .Home h1 {
+    animation: moveLeftAndRight 2s ease-in-out infinite;
+    font-weight: bold;
+  }
+  
+  @keyframes moveLeftAndRight {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-20px);
+    }
+  }
+  .tellme h4 span {
+
+    color: red;
+  }
+  .Home img {
+    animation: rotateImage 8s linear infinite;
+  }
+  
+  @keyframes rotateImage {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .tellme h4  {
+font-size: 19px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .tellme h2 {
+
+    font-size: 27px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
